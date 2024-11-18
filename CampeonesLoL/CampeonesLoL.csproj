@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\ADC.png" />
+    <None Remove="Assets\agregaar.png" />
+    <None Remove="Assets\alta.png" />
+    <None Remove="Assets\Apoyo.png" />
+    <None Remove="Assets\Asesino.png" />
+    <None Remove="Assets\backicon.png" />
+    <None Remove="Assets\Baja.png" />
+    <None Remove="Assets\Central.png" />
+    <None Remove="Assets\eliminar.png" />
+    <None Remove="Assets\estadisticas.png" />
+    <None Remove="Assets\Jungla.png" />
+    <None Remove="Assets\Mago.png" />
+    <None Remove="Assets\media.png" />
+    <None Remove="Assets\Peleador.png" />
+    <None Remove="Assets\Soporte.png" />
+    <None Remove="Assets\Superior.png" />
+    <None Remove="Assets\Tanque.png" />
+    <None Remove="Assets\Tirador.png" />
+    <None Remove="Fonts\BeaufortforLOL-Bold.ttf" />
+    <None Remove="Fonts\BeaufortforLOL-Medium.ttf" />
+    <None Remove="Fonts\spiegelcd.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\ADC.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\agregaar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\alta.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Apoyo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Asesino.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\backicon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Baja.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Central.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\eliminar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\estadisticas.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Jungla.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Mago.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\media.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Peleador.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Soporte.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Superior.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Tanque.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Tirador.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\BeaufortforLOL-Bold.ttf" />
+    <Resource Include="Fonts\BeaufortforLOL-Medium.ttf" />
+    <Resource Include="Fonts\spiegelcd.ttf" />
+  </ItemGroup>
+
+</Project>
